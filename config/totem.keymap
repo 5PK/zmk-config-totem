@@ -24,13 +24,13 @@
         compatible = "zmk,combos";
 
         ESC2 {
-            bindings = <&kp TAB>;
+            bindings = <&kp ESC>;
             key-positions = <12 13>;
             layers = <0 1 2 3>;
         };
 
         TAB2 {
-            bindings = <&kp ESC>;
+            bindings = <&kp TAB>;
             key-positions = <2 3>;
             layers = <0 1 2 3>;
         };
