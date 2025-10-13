@@ -18,7 +18,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv {
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <250>;
     acceleration-exponent = <2>;
 };
 
