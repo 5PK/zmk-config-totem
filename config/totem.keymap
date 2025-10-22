@@ -101,10 +101,10 @@
 
         device {
             bindings = <
-        &kp DEL     &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp BACKSPACE
-        &kp K_MUTE  &kp F5  &kp F6   &kp F7   &kp F8     &kp LEFT_ARROW  &kp DOWN       &kp UP           &kp RIGHT        &none
-&trans  &none       &kp F9  &kp F10  &kp F11  &kp F12    &none           &kp C_VOL_DN   &kp C_VOLUME_UP  &kp PAUSE_BREAK  &none          &none
-                            &trans   &trans   &trans     &trans          &trans         &trans
+        &kp DEL  &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp BACKSPACE
+        &none    &kp F5  &kp F6   &kp F7   &kp F8     &kp LEFT_ARROW  &kp DOWN       &kp UP           &kp RIGHT        &none
+&trans  &none    &kp F9  &kp F10  &kp F11  &kp F12    &none           &kp C_VOL_DN   &kp C_VOLUME_UP  &kp PAUSE_BREAK  &none          &kp K_MUTE
+                         &trans   &trans   &trans     &trans          &trans         &trans
             >;
         };
 
