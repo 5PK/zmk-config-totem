@@ -85,7 +85,7 @@
             bindings = <
         &kp N1  &kp N2  &kp N3  &kp N4     &kp N5           &kp N6           &kp N7            &kp N8  &kp N9        &kp N0
         &none   &none   &none   &kp SPACE  &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp N4            &kp N5  &kp NUMBER_6  &kp KP_PLUS
-&trans  &none   &none   &none   &none      &none            &kp N0           &kp N1            &kp N2  &kp N3        &kp KP_MINUS  &kp KP_EQUAL
+&trans  &none   &to 5   &none   &none      &none            &kp N0           &kp N1            &kp N2  &kp N3        &kp KP_MINUS  &kp KP_EQUAL
                         &trans  &trans     &trans           &trans           &kp LEFT_CONTROL  &trans
             >;
         };
@@ -114,6 +114,15 @@
        &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none     &none   &mkp LCLK       &mkp RCLK     &none  &none
 &none  &none  &none           &none           &none            &none     &none   &none           &none         &none  &none  &none
                               &trans          &trans           &trans    &trans  &trans          &trans
+            >;
+        };
+
+        gaming {
+            bindings = <
+         &kp TAB    &kp Q  &kp W     &kp E      &kp R        &kp T   &kp Y   &kp U   &trans  &trans
+         &kp L      &kp A  &kp S     &kp D      &kp F        &kp G   &kp H   &kp J   &trans  &trans
+&kp ESC  &kp LSHFT  &kp Z  &kp X     &kp C      &kp V        &kp B   &kp N   &kp M   &trans  &trans  &to 0
+                           &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
